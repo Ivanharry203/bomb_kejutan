@@ -88,7 +88,7 @@
             class="bomb img-fluid" 
             id="bomb-image">
         <div id="explosion-container" class="mt-3 d-none result">
-            <img src="lii-ngaca.png" alt="Explosion" id="explosion-image">
+            <img src="gorila.jpg" alt="Explosion" id="explosion-image">
             <p id="explosion-text"> Kipli kipli</p>
         </div>
         <div id="clicks-remaining" class="clicks-remaining">pencet lagi:5</div>
@@ -131,10 +131,10 @@
         restartBtn.addEventListener('click', () => {
             switchSound.play();
             if (imageToggle) {
-                explosionImage.src = "lii-merenung.png";
+                explosionImage.src = "monyet.png";
                 explosionText.textContent = "";
             } else {
-                explosionImage.src = "lii-ngaca.png";
+                explosionImage.src = "monyet.png";
                 explosionText.textContent = "";
             }
             imageToggle = !imageToggle;
@@ -142,4 +142,5 @@
     </script>
 </body>
 </html>
+
 
